@@ -23,21 +23,21 @@ void draw() {
   for (int x = 40; x < 460; x += 9) {
     float y = height/2 + (sinval * radius);
     fill(random(255));
-    ellipse(x, y, t, t); // Draw smaller circle
+    ellipse(x, y, t, t);
   }
   for (int y = 40; y < 460; y += 8) {
     float x = width/2 + (sinval * radius);
     fill(random(255));
-    ellipse(x, y, t, t); // Draw smaller circle
+    ellipse(x, y, t, t); 
   }
   for (int x2 = 40; x2 < 460; x2 += 8) {
     float y2 = height/2 + (sinval * -radius);
     fill(random(255));
-    ellipse(x2, y2, t, t); // Draw smaller circle
+    ellipse(x2, y2, t, t); 
   }
   for (int y2 = 40; y2 < 460; y2 += 8) {
     float x2 = width/2 + (sinval * -radius);
     fill(random(255));
-    ellipse(x2, y2, t, t); // Draw smaller circle
+    ellipse(x2, y2, t, t); 
   }
 }
