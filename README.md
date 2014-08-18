@@ -1,7 +1,6 @@
 365 Processing
 =============
 
-A 365 project by Peter Ha.
 Each day I make one animation in Processing.
 I've been working through Nature of Code by Daniel Shiffman along with a ton of supplementary resources. 
 
