@@ -7,8 +7,7 @@ int circleSize = 0;
 int shrinkOrGrow = 1;
 float theta = 0.02;
 
-void setup()
-{
+void setup() {
     size(500, 500);
     ellipseMode(CENTER);
     frameRate(30);
@@ -17,8 +16,7 @@ void setup()
     noFill();
     smooth();
 }
-void draw()
-{
+void draw() {
 //  saveFrame("output/frames#################.tif");
 
         // check the size of the circle
@@ -49,6 +47,4 @@ void draw()
     ellipse(0, 0, circleSize+i2, circleSize+i2);
     theta++;
     }
-
-
 }
