@@ -1,6 +1,9 @@
-/* Source cited:
+/* Source Cited:
+
  Nature of Code by Daniel Shiffman
  Chapter 2: Forces
+ http://natureofcode.com
+ 
  */
 
 Mover [] movers = new Mover[600];
