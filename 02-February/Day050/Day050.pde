@@ -16,7 +16,7 @@ void setup() {
 }
 
 void draw() {
-  //saveFrame("output6/frames#################.tif");
+  //saveFrame("output/frames#################.tif");
 
   for (int i = 0; i < walkers.length; i++) {
     walkers[i].display(); 
