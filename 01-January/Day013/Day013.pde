@@ -1,6 +1,9 @@
-/* Source cited:
+/* Source Cited:
+
  Nature of Code by Daniel Shiffman
  Introduction
+ http://natureofcode.com
+ 
  */
 
 // An array to keep track of how often random numbers are picked
