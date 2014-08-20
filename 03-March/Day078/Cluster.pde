@@ -1,3 +1,6 @@
+// Toxiclibs Library Example
+// Draggable Particles
+
 class Cluster {
   ArrayList <ParticleString2D> pstrings;
 
