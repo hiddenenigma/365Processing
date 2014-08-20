@@ -53,6 +53,4 @@ class Box {
     ellipse(0, 0, w, w);
     popMatrix();
   }
-  
-
 }
