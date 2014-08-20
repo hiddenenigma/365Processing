@@ -7,4 +7,3 @@ I would say I'm a beginner to coding and this project was a way for me to learn 
 
 As a disclaimer, I know my code probably has some issues and isn't properly commented, but I plan on trying to get better as the year goes on. 
 
-Please feel free to leave comments or suggestions.
