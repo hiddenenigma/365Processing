@@ -1,7 +1,12 @@
-/* Source cited:
+/* Source Cited:
 
 Nature of Code by Daniel Shiffman
 Chapter 1: Vectors
+
+Amon P5
+25 Life-Saving Tips for Processing
+Tip # 1
+http://amnonp5.wordpress.com/2012/01/28/25-life-saving-tips-for-processing/
 
 */
 
