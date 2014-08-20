@@ -9,7 +9,6 @@
 Grid1 g1;
 Grid2 g2;
 Grid3 g3;
-Grid4 g4;
 
 void setup() {
     size(500, 500);
@@ -18,7 +17,6 @@ void setup() {
     g1 = new Grid1();
     g2 = new Grid2();
     g3 = new Grid3();
-    g4 = new Grid4();
 }
 
 void draw() {
@@ -27,7 +25,6 @@ void draw() {
     g1.display();
     g2.display();
     g3.display();
-//    g4.display();
 
 }
 
