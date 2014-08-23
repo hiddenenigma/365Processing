@@ -16,7 +16,6 @@ class Flower {
   void display() {
     loc.add(vel);
     angle += 1;
-//    fill(c);
     float val = sin(radians(angle)) * c;
     for (int a = 0; a < 360; a += s) {
       float xoff = cos(radians(a)) * val;
