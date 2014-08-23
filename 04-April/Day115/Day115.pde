@@ -1,3 +1,11 @@
+/* Source Cited:
+
+The Nature of Code by Daniel Shiffman
+Chapter 4: Particle Systems
+http://natureofcode.com/
+
+*/
+
 import java.util.Iterator;
 
 ArrayList<ParticleSystem> systems;
