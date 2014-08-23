@@ -7,14 +7,13 @@ class Particle {
   PVector loc;
   PVector vel;
   PVector acc;
-  float mass; // Diameter of the ring
-  boolean on = false; // Turns the display on and off
+  float mass; 
+  boolean on = false; 
   float lifespan;
   float ls;
   float c;
   float sw;
-//    float angle = 0;
-//  float aVelocity = 0;
+
   
   Particle(PVector l, float m, float c_, float ls_, float sw_) {
     loc = l.get();
