@@ -15,7 +15,7 @@ class Circle {
     noFill();
     pushMatrix();
     translate(w,h);
-    rotateZ(theta);
+    rotate(theta);
     int circleResolution = (int) map(mouseY, 0,height,2,100);
     float radius = mouseX-width/2 + 0.5;
     float angle = TWO_PI/circleResolution;
