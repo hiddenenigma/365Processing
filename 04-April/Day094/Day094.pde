@@ -20,7 +20,7 @@ void draw() {
   color c = color(r);
   fill(random(255));
   for (Flower f: flowers) {
-  f.display();
-  f.update();
+    f.display();
+    f.update();
   }
 }
