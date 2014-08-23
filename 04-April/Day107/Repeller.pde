@@ -22,7 +22,6 @@ class Repeller {
 
     PVector dir = PVector.sub(loc,p.loc);
     float d = dir.mag();
-//    dir.normalize(0);
     d = constrain(d,2,300);
     float force = -radius * strength / (d*d);
     dir.mult(force);
