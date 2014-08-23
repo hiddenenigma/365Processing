@@ -30,7 +30,6 @@ class Particle {
   void update() {
     vel.add(acc);
     loc.add(vel);
-//    acc.mult(0);
     lifespan -= ls;
   }
 
