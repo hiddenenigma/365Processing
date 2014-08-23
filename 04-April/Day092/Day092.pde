@@ -1,6 +1,6 @@
 /* Source Cited:
 
-Nature of Code by Daniel Shiffman
+The Nature of Code by Daniel Shiffman
 Chapter 3: Oscillation
 http://natureofcode.com/
 
