@@ -6,17 +6,15 @@ class Vehicle {
   PVector loc, vel, acc;
   float maxspeed, maxforce;
   float r;
-  float c;
+
   
-  
-  Vehicle(float x, float y, float c_) {
+  Vehicle(float x, float y) {
     acc = new PVector(0,0);
     vel = new PVector(0,0);
     loc = new PVector(x,y);
     maxspeed = 3;
     maxforce = 0.1;
     r = 3;
-    c = c_;
   }
   
   void run() {
