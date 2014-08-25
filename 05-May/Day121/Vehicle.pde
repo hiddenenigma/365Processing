@@ -5,7 +5,6 @@
 class Vehicle {
   PVector loc, vel, acc;
   float maxspeed, maxforce;
-  float minspeed, minforce;
   float r = 5;
   
   Vehicle(float x, float y) {
