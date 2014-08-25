@@ -11,8 +11,8 @@ class FlowField {
   
   FlowField(int r) {
     res = r;
-    cols = width/res;
-    rows = height/res;
+    cols = 510/res;
+    rows = 510/res;
     field = new PVector[cols][rows];
     x = 10;
     y = 10;
@@ -34,8 +34,8 @@ class FlowField {
     }
     zoff += 0.1;
   } 
-  
 
+  
   PVector lookup(PVector lookup) {
     int column = int(constrain(lookup.x/res,0,cols-1));
     int row = int(constrain(lookup.y/res,0,rows-1));
