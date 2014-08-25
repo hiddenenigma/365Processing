@@ -16,7 +16,7 @@ void setup() {
   vehicles = new ArrayList<Vehicle>();
   for (int i = -5 ; i < width+5; i += 5) {
     for (int j = -5; j < height+5; j += 5) {
-        vehicles.add(new Vehicle(i,j, cos(radians(j)) * 2));
+        vehicles.add(new Vehicle(i,j));
     }
   }
 }
