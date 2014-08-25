@@ -7,21 +7,23 @@ class Vehicle {
   float maxspeed, maxforce;
   float r;
   float c;
+  float r2;
   
   
-  Vehicle(float x, float y, float c_) {
+  Vehicle(float x, float y) {
     acc = new PVector(0,0);
     vel = new PVector(0,0);
     loc = new PVector(x,y);
-    maxspeed = 3;
-    maxforce = 0.1;
+    maxspeed = 2;
+    maxforce = 0.05;
     r = 3;
-    c = c_;
+    r2 = 10;
   }
   
   void run() {
     update();
     display();
+    borders();
   }
   
   void update() {
@@ -37,24 +39,18 @@ class Vehicle {
   
   void applyBehaviors(ArrayList<Vehicle> vehicles) {
     PVector separate = separate(vehicles);
-
     separate.mult(1.5);
     applyForce(separate);
-
   }
 
-
   PVector separate (ArrayList<Vehicle> vehicles) {
-    float desiredseparation = r*10;
+    float desiredseparation = r*10; 
     PVector sum = new PVector();
     int count = 0;
     for (Vehicle other : vehicles) {
 
       float d = PVector.dist(loc, other.loc);
-      if (d < 10) {
-        stroke(0);
-        line(loc.x,loc.y,other.loc.x, other.loc.y);
-      }
+
       if ((d > 0) && (d < desiredseparation)) {
         PVector diff = PVector.sub(loc, other.loc);
         diff.normalize();
@@ -92,11 +88,19 @@ class Vehicle {
   
   void display() {
     float theta = vel.heading() + TWO_PI/2;
-    fill(255);
     noStroke();
     pushMatrix();
     translate(loc.x,loc.y);
     rotate(theta);
+    fill(255);
+    ellipse(0,0,2,2);
     popMatrix();
+  }
+  
+  void borders() {
+    if (loc.x < -r2) loc.x = width+r2;
+    if (loc.y < -r2) loc.y = height+r2;
+    if (loc.x > width+r2) loc.x = -r2;
+    if (loc.y > height+r2) loc.y = -r2;
   }
 }
