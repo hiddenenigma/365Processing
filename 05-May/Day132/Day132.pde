@@ -1,6 +1,10 @@
-// The Nature of Code
-// Daniel Shiffman
-// http://natureofcode.com
+/* Souce Cited:
+
+The Nature of Code by Daniel Shiffman
+Chapter 6: Autonomous Agents
+http://natureofcode.com/
+
+*/
 
 int d = 20;
 
