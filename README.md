@@ -3,7 +3,7 @@
 
 This 365 project is my way of learning how to code by challenging myself to make one animation a day in Processing. 
 
-<i>The Nature of Code</i> by Danielf Shiffman has been my primary source for learning, but below are a list of links and books that has helped me throughout the year.
+<i>The Nature of Code</i> by Danielf Shiffman has been my primary source for learning along with other supplementary sources.
 
 <h2>Resources</h2>
 <ul>
