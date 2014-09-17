@@ -17,7 +17,6 @@ class FlowField {
   }
   
   void init() {
-    float zoff = 0;
     float xoff = 0;
     for (int i = 0; i < cols; i ++) {
       float yoff = 0;
