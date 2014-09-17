@@ -4,7 +4,7 @@
 
 class Vehicle {
 
-  PVector location, velocity, acceration;
+  PVector location, velocity, acceleration;
   float maxforce, maxspeed;   
   float r;
 
